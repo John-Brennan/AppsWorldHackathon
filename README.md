@@ -1,8 +1,8 @@
 Team Members:
 
-John Brennan
-Ganesh Balaji
-Zoe Smulder
+<li>John Brennan</li>
+<li>Ganesh Balaji</li>
+<li>Zoe Smulder</li>
 
 Mojio
 =====
