@@ -3,7 +3,7 @@ When(/^I type "(.*?)" into the "(.*?)" text field$/) do |arg1, arg2|
 	check_element_exists(text_field_selector)
 	touch(text_field_selector)
 	frankly_map(text_field_selector, 'setText:', arg1)
-	frankly_map(text_field_selector, 'endEditing:', true)	
+	frankly_map(text_field_selector, 'endEditing:', true)
 end
 
 When(/^I select (\d+)nd row in picker "(.*?)"$/) do|
@@ -37,4 +37,8 @@ end
 
 def forced_touch(selector)
 	touch_success = frankly_map(selector, 'FEX_forcedTouch')
+end
+
+
+def search(selector)
 end
